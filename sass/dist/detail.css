@@ -1,0 +1,382 @@
+@charset "UTF-8";
+.section-one {
+  width: 100%;
+  height: 515px;
+  background: skyblue;
+  /*顶部*/
+}
+.section-one .banner {
+  height: 40px;
+  background: #cc0000;
+}
+.section-one .banner a {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 40px;
+}
+.section-one .banner .allgoods {
+  width: 207px;
+  height: 40px;
+  background: #990000;
+  z-index: 1000;
+  float: left;
+  /*划过全部商品是 弹出li列表*/
+}
+.section-one .banner .allgoods a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.section-one .banner .allgoods .choose {
+  width: 203px;
+  height: 422px;
+  border: 2px solid #cc3300;
+  border-top: 0;
+  float: left;
+  z-index: 1;
+  display: none;
+}
+.section-one .banner .allgoods .choose li {
+  height: 32px;
+  background: #fff;
+}
+.section-one .banner .allgoods .choose .choose-li {
+  width: 203px;
+  height: 32px;
+  box-sizing: border-box;
+  position: relative;
+  background: #fff;
+  z-index: 1;
+  /*划过li是边框背景色的变化*/
+  /* 划过li时右侧弹出的大盒子 */
+}
+.section-one .banner .allgoods .choose .choose-li .choose-li-top {
+  width: 204px;
+  height: 32px;
+  background: #eee;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-bottom: 1px solid #cc3300;
+  border-top: 1px solid #cc3300;
+  border-right: 2px solid #eee;
+  box-sizing: border-box;
+  z-index: 1;
+  display: none;
+}
+.section-one .banner .allgoods .choose .choose-li:hover .choose-li-top {
+  display: block;
+}
+.section-one .banner .allgoods .choose .choose-li:hover .li-right {
+  display: block;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right {
+  width: 1000px;
+  height: 422px;
+  position: absolute;
+  left: 204px;
+  top: 0;
+  border-right: 2px solid #cc3300;
+  border-bottom: 2px solid #cc3300;
+  background: #fff;
+  z-index: 1;
+  display: none;
+  /* 右侧大盒子的列表部分*/
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-left {
+  width: 700px;
+  height: 422px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  float: left;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-left .list {
+  width: 600px;
+  height: 30px;
+  margin: 10px 0 0 20px;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-left .list h5 {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  float: left;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-left .list .test {
+  width: 500px;
+  height: 30px;
+  float: left;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-left .list .test li {
+  width: 80px;
+  height: 30px;
+  float: left;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-left .list .test li a {
+  border-right: 1px solid #eee;
+  padding: 0 10px;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-left .list .test li :last-child {
+  border-right: 0;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-right {
+  width: 298px;
+  height: 422px;
+  float: left;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-right .hot-sall {
+  width: 80px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-right .hot-sall .hot-sall-ul {
+  width: 80px;
+  height: 330px;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-right .hot-sall h2 {
+  color: #333;
+  font-size: 16px;
+}
+.section-one .banner .allgoods .choose .choose-li .li-right .li-right-right .hot-sall h2 a {
+  font-size: 12px;
+  color: #ccc;
+}
+.section-one .banner .allgoods .choose .choose-li:hover a {
+  text-decoration: none;
+}
+.section-one .banner .allgoods .choose li p {
+  line-height: 32px;
+}
+.section-one .banner .allgoods .choose li h3 {
+  width: 3px;
+  height: 3px;
+  background: #cc3333;
+  float: left;
+  margin: 14px 8px 0 10px;
+}
+.section-one .banner .allgoods .choose li a {
+  font-size: 14px;
+  color: #333333;
+  line-height: 32px;
+}
+.section-one .banner .allgoods .choose li a:hover {
+  color: #cc0000;
+  border-bottom: 1px solid #cc0000;
+}
+.section-one .banner .allgoods .choose li span {
+  width: 6px;
+  height: 9px;
+  color: #cccccc;
+  float: right;
+  padding-right: 13px;
+}
+.section-one .banner .hot {
+  width: 570px;
+  float: left;
+}
+.section-one .banner .hot a {
+  padding: 0 15px;
+  display: block;
+  float: left;
+}
+.section-one .banner .hot a:hover {
+  background: #990000;
+}
+.section-one .banner .internet {
+  width: 270px;
+  height: 40px;
+  float: right;
+  position: relative;
+}
+.section-one .banner .internet a {
+  font-size: 16px;
+  color: #ffffff;
+  position: relative;
+}
+.section-one .banner .internet a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.section-one .banner .allgoods:hover .choose {
+  display: block;
+}
+.section-one .firstpage {
+  height: 40px;
+  background: pink;
+}
+.section-one .firstpage a {
+  line-height: 40px;
+  color: #333333;
+  font-size: 12px;
+}
+.section-one .firstpage span {
+  line-height: 40px;
+  color: #333333;
+  font-size: 12px;
+}
+.section-one .detailsales {
+  height: 434px;
+  background: yellow;
+}
+.section-one .detailsales #box {
+  position: relative;
+  width: 338px;
+  height: 413px;
+  background: pink;
+}
+.section-one .detailsales #box #large-box {
+  position: absolute;
+  top: 0;
+  left: 338px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.section-one .detailsales #box #large-box #large-img {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+}
+.section-one .detailsales #box #middle-box {
+  position: relative;
+}
+.section-one .detailsales #box #middle-box img {
+  width: 100%;
+}
+.section-one .detailsales #box #middle-box #shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+  height: 150px;
+  background: rgba(255, 0, 0, 0.4);
+  cursor: move;
+}
+.section-one .detailsales #box #small-box {
+  margin-left: 27px;
+}
+.section-one .detailsales #box #small-box img {
+  margin-top: 6px;
+  margin-right: 15px;
+  float: left;
+  width: 58px;
+  border: 1px solid #eee;
+}
+.section-one .detailsales #box #small-box .active {
+  border: 1px solid #eee;
+}
+.section-one .detailsales #box img {
+  vertical-align: bottom;
+}
+
+/*站内导航*/
+.banner {
+  height: 102px;
+  border: 1px solid #eee;
+}
+.banner .banner-h2 {
+  height: 20px;
+  line-height: 20px;
+  color: #000;
+  font-size: 12px;
+  padding-left: 20px;
+}
+.banner .bannerup {
+  height: 68px;
+  border-top: 1px solid #eee;
+}
+.banner .bannerup ul {
+  height: 68px;
+  padding-left: 20px;
+}
+.banner .bannerup ul li {
+  float: left;
+}
+.banner .bannerup ul li a {
+  font-size: 12px;
+  line-height: 25px;
+  color: #333333;
+  margin-right: 50px;
+}
+.banner .bannerup ul li a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+/*热门推荐*/
+.hotadvice {
+  height: 254px;
+  margin-top: 30px;
+  border: 1px solid #eee;
+}
+.hotadvice h2 {
+  height: 34px;
+  line-height: 34px;
+  color: #000;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.hotadvice .hotadvice-con {
+  height: 219px;
+  border-top: 1px solid #eee;
+}
+.hotadvice .hotadvice-con .hot-list {
+  height: 220px;
+  margin-left: 20px;
+}
+.hotadvice .hotadvice-con .hot-list li {
+  float: left;
+}
+.hotadvice .hotadvice-con .hot-list li .hot-pic {
+  width: 216px;
+  height: 89px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.hotadvice .hotadvice-con .hot-list li .hot-pic img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 30px;
+}
+.hotadvice .hotadvice-con .hot-list li .hot-pic a {
+  font-size: 12px;
+  color: #333333;
+}
+.hotadvice .hotadvice-con .hot-list li .hot-pic a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+/*品牌推荐*/
+.brand {
+  height: 124px;
+  border: 1px solid #eee;
+  margin-top: 30px;
+}
+.brand h2 {
+  height: 34px;
+  line-height: 34px;
+  color: #000;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.brand .brand-con {
+  height: 124px;
+  border-top: 1px solid #eee;
+}
+.brand .brand-con .brand-list {
+  margin-left: 20px;
+}
+.brand .brand-con .brand-list li {
+  width: 120px;
+  height: 45px;
+  float: left;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.brand .brand-con .brand-list li img {
+  width: 120px;
+  height: 30px;
+}

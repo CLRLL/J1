@@ -1,0 +1,461 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, table, tr, td, form, hr, fieldset, h1, h2, h3, h4, h5, h6, img, input {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  background: #eee;
+}
+
+/*header*/
+header {
+  height: 82px;
+}
+header .header-con {
+  width: 324px;
+  height: 39px;
+  float: left;
+  margin: 24px 0 20px 142px;
+}
+header .header-con img {
+  width: 200px;
+  height: 39px;
+  margin-right: 18px;
+  float: left;
+}
+header .header-con a {
+  font-size: 24px;
+  color: #333333;
+  line-height: 39px;
+  margin-right: 10px;
+  float: left;
+}
+header .header-right {
+  width: 254px;
+  height: 24px;
+  float: left;
+  margin-top: 39px;
+}
+header .header-right a {
+  font-size: 12px;
+  color: #333333;
+  line-height: 24px;
+}
+header .header-right a span {
+  color: #cc0000;
+}
+
+/*section form表单*/
+section {
+  height: 474px;
+}
+section .register-con {
+  width: 998px;
+  height: 472px;
+  border: 1px solid #999999;
+}
+section .register-con .register-left {
+  width: 732px;
+  height: 431px;
+  float: left;
+}
+section .register-con .register-left .form {
+  width: 589px;
+  height: 353px;
+  margin-top: 41px;
+  margin-left: 34px;
+}
+section .register-con .register-left .form .phone {
+  width: 589px;
+  height: 37px;
+  margin-bottom: 24px;
+}
+section .register-con .register-left .form .phone span {
+  width: 6px;
+  height: 6px;
+  display: block;
+  float: left;
+  margin: 14px 8px 16px 18px;
+  background: url(../../img/reg-xing.jpg) left center no-repeat;
+}
+section .register-con .register-left .form .phone a {
+  font-size: 12px;
+  color: #333333;
+  line-height: 36px;
+}
+section .register-con .register-left .form .phone .cellphone {
+  width: 268px;
+  height: 34px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 34px;
+  border: 1px solid #999999;
+  background: url(../../img/reg-right.jpg) -30px center no-repeat #fff;
+}
+section .register-con .register-left .form .phone .cellphone-hide {
+  width: 245px;
+  height: 23px;
+  margin-left: 73px;
+  display: none;
+}
+section .register-con .register-left .form .phone .cellphone-hide em {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  float: left;
+  margin: 4px 6px 4px 0;
+  background: url(../../img/reg-wrong.jpg) left center no-repeat;
+}
+section .register-con .register-left .form .password {
+  width: 589px;
+  height: 60px;
+  float: left;
+}
+section .register-con .register-left .form .password span {
+  width: 6px;
+  height: 6px;
+  display: block;
+  float: left;
+  margin: 15px 8px 16px 4px;
+  background: url(../../img/reg-xing.jpg) left center no-repeat;
+}
+section .register-con .register-left .form .password a {
+  font-size: 12px;
+  color: #333333;
+  line-height: 36px;
+}
+section .register-con .register-left .form .password .password-inp {
+  width: 268px;
+  height: 34px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 34px;
+  border: 1px solid #999999;
+  background: url(../../img/reg-right.jpg) -30px center no-repeat #fff;
+}
+section .register-con .register-left .form .password .safe {
+  width: 217px;
+  height: 36px;
+  float: right;
+}
+section .register-con .register-left .form .password .safe a {
+  font-size: 12px;
+  color: #333333;
+  line-height: 36px;
+  float: left;
+  margin-right: 5px;
+}
+section .register-con .register-left .form .password .safe span {
+  width: 50px;
+  height: 14px;
+  display: block;
+  float: left;
+  line-height: 14px;
+  text-align: center;
+  background: #999999;
+  color: #fff;
+  margin: 12px 2px 10px 0;
+}
+section .register-con .register-left .form .password .safe :nth-child(2) {
+  background: #cc0000;
+}
+section .register-con .register-left .form .password .passwordhide {
+  width: 500px;
+  height: 23px;
+  margin-left: 73px;
+  float: left;
+  display: none;
+}
+section .register-con .register-left .form .password .passwordhide em {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  float: left;
+  margin: 4px 6px 4px 0;
+  background: url(../../img/reg-wrong.jpg) left center no-repeat;
+}
+section .register-con .register-left .form .again-password {
+  width: 589px;
+  height: 37px;
+  margin-bottom: 24px;
+  float: left;
+}
+section .register-con .register-left .form .again-password span {
+  width: 6px;
+  height: 6px;
+  display: block;
+  float: left;
+  margin: 15px 8px 16px 4px;
+  background: url(../../img/reg-xing.jpg) left center no-repeat;
+}
+section .register-con .register-left .form .again-password a {
+  font-size: 12px;
+  color: #333333;
+  line-height: 36px;
+}
+section .register-con .register-left .form .again-password .again {
+  width: 268px;
+  height: 34px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 34px;
+  border: 1px solid #999999;
+  background: url(../../img/reg-right.jpg) -30px center no-repeat #fff;
+}
+section .register-con .register-left .form .again-password .again-hide {
+  width: 245px;
+  height: 23px;
+  margin-left: 73px;
+  float: left;
+  display: none;
+}
+section .register-con .register-left .form .again-password .again-hide em {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  float: left;
+  margin: 4px 6px 4px 0;
+  background: url(../../img/reg-wrong.jpg) left center no-repeat;
+}
+section .register-con .register-left .form .authcode {
+  width: 589px;
+  height: 37px;
+  margin-bottom: 27px;
+  float: left;
+}
+section .register-con .register-left .form .authcode :nth-child(1) {
+  width: 6px;
+  height: 6px;
+  display: block;
+  float: left;
+  margin: 18px 8px 16px 2px;
+  background: url(../../img/reg-xing.jpg) left center no-repeat;
+}
+section .register-con .register-left .form .authcode :nth-child(2) {
+  font-size: 12px;
+  color: #333333;
+  line-height: 36px;
+}
+section .register-con .register-left .form .authcode :nth-child(3) {
+  width: 90px;
+  height: 34px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 34px;
+  border: 1px solid #cccccc;
+}
+section .register-con .register-left .form .authcode :nth-child(4) {
+  width: 60px;
+  height: 20px;
+  display: inline-block;
+  color: #000000;
+  line-height: 20px;
+  font-size: 13px;
+  background: #cccccc;
+  text-align: center;
+  margin: 10px 15px 6px 13px;
+}
+section .register-con .register-left .form .authcode :nth-child(5) {
+  width: 88px;
+  height: 37px;
+  display: inline-block;
+  color: #666666;
+  line-height: 37px;
+  font-size: 12px;
+  background: #cccccc;
+  text-align: center;
+  border: 1px solid #999999;
+}
+section .register-con .register-left .form .agreement {
+  width: 589px;
+  height: 37px;
+  float: left;
+}
+section .register-con .register-left .form .agreement span {
+  width: 11px;
+  height: 11px;
+  display: block;
+  float: left;
+  background: url(../../img/reg-c.jpg) left center no-repeat #cccccc;
+  background-position: 1px 1px;
+  border: 1px solid #999999;
+  margin: 12px 8px 12px 94px;
+}
+section .register-con .register-left .form .agreement :nth-child(2) {
+  font-size: 12px;
+  color: #333333;
+  line-height: 36px;
+  float: left;
+}
+section .register-con .register-left .form .agreement :nth-child(3) {
+  font-size: 12px;
+  color: #006699;
+  line-height: 36px;
+}
+section .register-con .register-left .form .submit {
+  width: 589px;
+  height: 50px;
+  float: left;
+}
+section .register-con .register-left .form .submit .submit-inp {
+  width: 270px;
+  height: 50px;
+  background: #cc0000;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 50px;
+  margin-left: 95px;
+  border: 0;
+}
+section .register-con .register-right {
+  width: 266px;
+  height: 472px;
+  border-left: 1px solid #999999;
+  box-sizing: border-box;
+  float: left;
+}
+section .register-con .register-right .right-con {
+  width: 182px;
+  height: 235px;
+  margin: 47px 38px 188px 47px;
+}
+section .register-con .register-right .right-con :nth-child(1) {
+  line-height: 24px;
+  font-size: 12px;
+  color: #333333;
+}
+section .register-con .register-right .right-con :nth-child(2) {
+  width: 176px;
+  height: 36px;
+  display: block;
+  background: #cccccc;
+  color: #666666;
+  font-size: 12px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid #999999;
+  marging-top: 7px;
+}
+section .register-con .register-right .right-con :nth-child(3) {
+  line-height: 28px;
+  font-size: 14px;
+  color: #333333;
+  margin-top: 26px;
+}
+section .register-con .register-right .right-con :nth-child(4) a {
+  line-height: 28px;
+  font-size: 12px;
+  color: #666666;
+}
+section .register-con .register-right .right-con :nth-child(4) a span {
+  width: 14px;
+  height: 16px;
+  display: block;
+  margin: 7px 9px 5px 0;
+  float: left;
+  background: url(../../img/reg-pay.jpg) left center no-repeat;
+}
+section .register-con .register-right .right-con :nth-child(5) a {
+  line-height: 28px;
+  font-size: 12px;
+  color: #666666;
+}
+section .register-con .register-right .right-con :nth-child(5) a span {
+  width: 14px;
+  height: 16px;
+  display: block;
+  margin: 7px 9px 5px 0;
+  float: left;
+  background: url(../../img/reg-pay.jpg) left center no-repeat;
+}
+section .register-con .register-right .right-con :nth-child(6) a {
+  line-height: 28px;
+  font-size: 12px;
+  color: #666666;
+}
+section .register-con .register-right .right-con :nth-child(6) a span {
+  width: 14px;
+  height: 16px;
+  display: block;
+  margin: 7px 9px 5px 0;
+  float: left;
+  background: url(../../img/reg-pay.jpg) left center no-repeat;
+}
+section .register-con .register-right .right-con :nth-child(7) a {
+  line-height: 28px;
+  font-size: 12px;
+  color: #666666;
+}
+section .register-con .register-right .right-con :nth-child(7) a span {
+  width: 14px;
+  height: 16px;
+  display: block;
+  margin: 7px 9px 5px 0;
+  float: left;
+  background: url(../../img/reg-pay.jpg) left center no-repeat;
+}
+
+/*footer*/
+footer {
+  height: 108px;
+}
+footer .footer-end {
+  width: 883px;
+  height: 134px;
+  margin-left: 143px;
+  padding-top: 12px;
+}
+footer .footer-end .end-top {
+  width: 883px;
+  height: 21px;
+}
+footer .footer-end a {
+  line-height: 21px;
+  color: #666666;
+  font-size: 12px;
+}
+footer .footer-end a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+footer .footer-end .end-center {
+  width: 573px;
+  height: 21px;
+  margin-left: 157px;
+}
+footer .footer-end .end-logo {
+  width: 746px;
+  height: 57px;
+  margin-left: 89px;
+}
+footer .footer-end .end-logo img {
+  width: 123px;
+  height: 25px;
+  float: left;
+  margin-right: 15px;
+  padding-top: 32px;
+}
+footer .footer-end .end {
+  width: 757px;
+  height: 36px;
+  margin-left: 78px;
+}
+footer .footer-end .end p {
+  font-size: 12px;
+  color: #666666;
+  line-height: 36px;
+}

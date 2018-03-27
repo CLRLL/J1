@@ -1,0 +1,307 @@
+/* CSS Document */
+body,div,p,ul,ol,li,dl,dt,dd,table,tr,td,form,hr,fieldset,h1,h2,h3,h4,h5,h6,img,input{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration:none;
+}
+ul,ol{
+  list-style:none;
+}
+img{
+  border: 0;
+}
+body{
+	background: #eee;
+}
+/*header*/
+header{
+	height: 82px;
+	// background: pink;
+	.header-con{
+		width: 324px;
+		height: 39px;
+		// background: blue;
+		float: left;
+		margin:24px 0 20px 142px;
+		img{
+			width: 200px;
+			height: 39px;
+			margin-right: 18px;
+			float: left;
+		}
+	}
+}
+
+/*form表单*/
+section{
+	width: 991px;
+	height: 441px;
+	// background: skyblue;
+	background: #fff;
+	border: 5px solid #eee;
+	margin-left: 132px;
+	.right-img{
+		width: 440px;
+		height: 310px;
+		padding: 65px 82px 66px 82px;
+		float: left;
+	}
+	.sec-left{
+		width: 387px;
+		height: 409px;
+		// background: pink;
+		margin-top: 32px;
+		float: left;
+		.form{
+			.tab{
+
+			.menu{
+				height: 30px;
+				// width: 338px;
+				li{
+					height: 30px;
+					float: left;
+
+				}
+				li a{
+					line-height: 30px;
+					font-size: 12px;
+					color: #333333;
+					margin-left: 30px;
+				}
+			    }
+			}
+			.panel{
+					
+				    height: 157px;
+				    // background: yellow;
+				    width: 388px;
+				    float: left;
+				   .enter{
+		    		   width: 589px;
+		    		   height: 37px;
+		    		   // background: yellow;
+		    		   margin-bottom: 24px;
+		    		   span{
+		    			    font-size: 12px;
+		    			    color: #333333;
+		    			    line-height: 34px;
+		    			    float: left;
+		    		    }
+		    		   a{
+		    			    font-size: 12px;
+		    			    color: #cc0000;
+		    			    line-height: 34px;
+		    			    display: block;
+		    			    margin-left: 217px;
+		    		    }
+		    		    .account{
+		    			    width: 268px;
+		    			    height: 34px;
+		    			    font-size: 12px;
+		    			    color: #999999;
+		    			    line-height: 34px;
+		    			    border: 1px solid #999999;
+		    			    //left:243px(背景图出现的位置)
+		    			    background: url(../../img/reg-right.jpg) -30px center no-repeat #fff;
+		    		    }
+		    		    .account-hide{
+		    			   width: 245px;
+		    			   height: 23px;
+		    			   // background: pink;
+		    			   margin-left: 73px;
+		    			   display: none;
+		    			   em{
+		    				    width: 14px;
+		    				    height: 14px;
+		    				    display: inline-block;
+		    				    float: left;
+		    				    margin:4px 6px 4px 0;
+		    				    background: url(../../img/reg-wrong.jpg) left center no-repeat;
+		    			    }
+		    		    }
+		    	
+		    	    }
+		    	    .pass{
+		    		   width: 589px;
+		    		   height: 37px;
+		    		   // background: yellow;
+		    		   margin-bottom: 24px;
+		    		   p{
+		    			    font-size: 12px;
+		    			    color: #333333;
+		    			    line-height: 34px;
+		    			    display: block;
+		    		    }
+		    		    .password{
+		    			    width: 268px;
+		    			    height: 34px;
+		    			    font-size: 12px;
+		    			    color: #999999;
+		    			    line-height: 34px;
+		    			    border: 1px solid #999999;
+		    			    //left:243px(背景图出现的位置)
+		    			    background: url(../../img/reg-right.jpg) -30px center no-repeat #fff;
+		    		    }
+		    		    .password-hide{
+		    			   width: 245px;
+		    			   height: 23px;
+		    			   // background: pink;
+		    			   margin-left: 73px;
+		    			   display: none;
+		    			   em{
+		    				    width: 14px;
+		    				    height: 14px;
+		    				    display: inline-block;
+		    				    float: left;
+		    				    margin:4px 6px 4px 0;
+		    				    background: url(../../img/reg-wrong.jpg) left center no-repeat;
+		    			    }
+		    		    }
+		    	
+		    	    }
+			    }
+			.panel{
+				    height: 157px;
+				    // background: yellow;
+				    width: 388px;
+				    float: left;
+				   .phone{
+		    		   width: 589px;
+		    		   height: 37px;
+		    		   // background: yellow;
+		    		   margin-bottom: 24px;
+		    		   p{
+		    			    font-size: 12px;
+		    			    color: #333333;
+		    			    line-height: 36px;
+		    		    }
+		    		    .phonenum{
+		    			    width: 268px;
+		    			    height: 34px;
+		    			    font-size: 12px;
+		    			    color: #999999;
+		    			    line-height: 34px;
+		    			    border: 1px solid #999999;
+		    			    //left:243px(背景图出现的位置)
+		    			    background: url(../../img/reg-right.jpg) -30px center no-repeat #fff;
+		    		    }
+		    		    .phone-hide{
+		    			   width: 245px;
+		    			   height: 23px;
+		    			   // background: pink;
+		    			   margin-left: 73px;
+		    			   display: none;
+		    			   em{
+		    				    width: 14px;
+		    				    height: 14px;
+		    				    display: inline-block;
+		    				    float: left;
+		    				    margin:4px 6px 4px 0;
+		    				    background: url(../../img/reg-wrong.jpg) left center no-repeat;
+		    			    }
+		    		    }
+		    	
+		    	    }
+		    	    .authcode{
+		        	width: 589px;
+		    		height: 37px;
+		    		// background: yellow;
+		    		margin-bottom: 27px;
+		    		// float: left;
+		    		:nth-child(1){
+		    			font-size: 12px;
+		    			color: #333333;
+		    			line-height: 36px;
+		    		}
+		    		:nth-child(2){
+    			        width: 90px;
+		    			height: 34px;
+		    			font-size: 12px;
+		    			color: #999999;
+		    			line-height: 34px;
+		    			border: 1px solid #cccccc;
+		    			float: left;
+		    		}
+		    		:nth-child(3){
+		    			width: 60px;
+		    			height: 20px;
+		    			display: inline-block;
+		    			color: #000000;
+		    			line-height: 20px;
+		    			font-size: 13px;
+		    			background: #cccccc;
+		    			text-align: center;
+		    			margin: 10px 15px 6px 13px;
+		    		}
+		    		:nth-child(4){
+		    			width: 88px;
+		    			height: 37px;
+		    			display: inline-block;
+		    			color: #666666;
+		    			line-height: 37px;
+		    			font-size: 12px;
+		    			background: #cccccc;
+		    			text-align: center;
+		    			border: 1px solid #999999;
+		    		}
+		        }
+
+			}
+		}
+	}
+}
+
+/*footer*/
+footer{
+   height: 108px;
+    .footer-end{
+    	width: 883px;
+    	height: 134px;
+    	margin-left: 143px;
+    	padding-top: 12px;
+    	.end-top{
+    		width: 883px;
+    		height: 21px;
+    		// margin-top: 12px;
+    	}
+    	a{
+    		line-height:21px;
+    		color:#666666;
+    		font-size:12px;
+    		&:hover{
+			color:#cc0000;
+			text-decoration:underline;
+		   }
+    	}
+    	.end-center{
+    		width: 573px;
+    		height: 21px;
+    		margin-left: 157px;   		
+    	}
+    	.end-logo{
+    		width: 746px;
+    		height: 57px;
+    		margin-left: 89px;
+    		img{
+    			width: 123px;
+    			height: 25px;
+    			float: left;
+    			margin-right: 15px;
+    			padding-top: 32px;
+    		}
+    	}
+    	.end{
+    		width: 757px;
+    		height: 36px;
+    		margin-left: 78px;
+    		p{
+			    font-size: 12px;
+                color: #666666;
+                line-height: 36px;
+    		}
+    	}
+    }
+}

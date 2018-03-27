@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, table, tr, td, form, hr, fieldset, h1, h2, h3, h4, h5, h6, img, input {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  background: #eee;
+}
+
+/*header*/
+header {
+  height: 82px;
+}
+header .header-con {
+  width: 324px;
+  height: 39px;
+  float: left;
+  margin: 24px 0 20px 142px;
+}
+header .header-con img {
+  width: 200px;
+  height: 39px;
+  margin-right: 18px;
+  float: left;
+}
+
+/*form表单*/
+section {
+  width: 991px;
+  height: 441px;
+  background: #fff;
+  border: 5px solid #eee;
+  margin-left: 132px;
+}
+section .right-img {
+  width: 440px;
+  height: 310px;
+  padding: 65px 82px 66px 82px;
+  float: left;
+}
+section .sec-left {
+  width: 387px;
+  height: 409px;
+  margin-top: 32px;
+  float: left;
+}
+section .sec-left .form .tab .menu {
+  height: 30px;
+}
+section .sec-left .form .tab .menu li {
+  height: 30px;
+  float: left;
+}
+section .sec-left .form .tab .menu li a {
+  line-height: 30px;
+  font-size: 12px;
+  color: #333333;
+  margin-left: 30px;
+}
+section .sec-left .form .panel {
+  height: 157px;
+  width: 388px;
+  float: left;
+}
+section .sec-left .form .panel .enter {
+  width: 589px;
+  height: 37px;
+  margin-bottom: 24px;
+}
+section .sec-left .form .panel .enter span {
+  font-size: 12px;
+  color: #333333;
+  line-height: 34px;
+  float: left;
+}
+section .sec-left .form .panel .enter a {
+  font-size: 12px;
+  color: #cc0000;
+  line-height: 34px;
+  display: block;
+  margin-left: 217px;
+}
+section .sec-left .form .panel .enter .account {
+  width: 268px;
+  height: 34px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 34px;
+  border: 1px solid #999999;
+  background: url(../../img/reg-right.jpg) -30px center no-repeat #fff;
+}
+section .sec-left .form .panel .enter .account-hide {
+  width: 245px;
+  height: 23px;
+  margin-left: 73px;
+  display: none;
+}
+section .sec-left .form .panel .enter .account-hide em {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  float: left;
+  margin: 4px 6px 4px 0;
+  background: url(../../img/reg-wrong.jpg) left center no-repeat;
+}
+section .sec-left .form .panel .pass {
+  width: 589px;
+  height: 37px;
+  margin-bottom: 24px;
+}
+section .sec-left .form .panel .pass p {
+  font-size: 12px;
+  color: #333333;
+  line-height: 34px;
+  display: block;
+}
+section .sec-left .form .panel .pass .password {
+  width: 268px;
+  height: 34px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 34px;
+  border: 1px solid #999999;
+  background: url(../../img/reg-right.jpg) -30px center no-repeat #fff;
+}
+section .sec-left .form .panel .pass .password-hide {
+  width: 245px;
+  height: 23px;
+  margin-left: 73px;
+  display: none;
+}
+section .sec-left .form .panel .pass .password-hide em {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  float: left;
+  margin: 4px 6px 4px 0;
+  background: url(../../img/reg-wrong.jpg) left center no-repeat;
+}
+section .sec-left .form .panel {
+  height: 157px;
+  width: 388px;
+  float: left;
+}
+section .sec-left .form .panel .phone {
+  width: 589px;
+  height: 37px;
+  margin-bottom: 24px;
+}
+section .sec-left .form .panel .phone p {
+  font-size: 12px;
+  color: #333333;
+  line-height: 36px;
+}
+section .sec-left .form .panel .phone .phonenum {
+  width: 268px;
+  height: 34px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 34px;
+  border: 1px solid #999999;
+  background: url(../../img/reg-right.jpg) -30px center no-repeat #fff;
+}
+section .sec-left .form .panel .phone .phone-hide {
+  width: 245px;
+  height: 23px;
+  margin-left: 73px;
+  display: none;
+}
+section .sec-left .form .panel .phone .phone-hide em {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  float: left;
+  margin: 4px 6px 4px 0;
+  background: url(../../img/reg-wrong.jpg) left center no-repeat;
+}
+section .sec-left .form .panel .authcode {
+  width: 589px;
+  height: 37px;
+  margin-bottom: 27px;
+}
+section .sec-left .form .panel .authcode :nth-child(1) {
+  font-size: 12px;
+  color: #333333;
+  line-height: 36px;
+}
+section .sec-left .form .panel .authcode :nth-child(2) {
+  width: 90px;
+  height: 34px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 34px;
+  border: 1px solid #cccccc;
+  float: left;
+}
+section .sec-left .form .panel .authcode :nth-child(3) {
+  width: 60px;
+  height: 20px;
+  display: inline-block;
+  color: #000000;
+  line-height: 20px;
+  font-size: 13px;
+  background: #cccccc;
+  text-align: center;
+  margin: 10px 15px 6px 13px;
+}
+section .sec-left .form .panel .authcode :nth-child(4) {
+  width: 88px;
+  height: 37px;
+  display: inline-block;
+  color: #666666;
+  line-height: 37px;
+  font-size: 12px;
+  background: #cccccc;
+  text-align: center;
+  border: 1px solid #999999;
+}
+
+/*footer*/
+footer {
+  height: 108px;
+}
+footer .footer-end {
+  width: 883px;
+  height: 134px;
+  margin-left: 143px;
+  padding-top: 12px;
+}
+footer .footer-end .end-top {
+  width: 883px;
+  height: 21px;
+}
+footer .footer-end a {
+  line-height: 21px;
+  color: #666666;
+  font-size: 12px;
+}
+footer .footer-end a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+footer .footer-end .end-center {
+  width: 573px;
+  height: 21px;
+  margin-left: 157px;
+}
+footer .footer-end .end-logo {
+  width: 746px;
+  height: 57px;
+  margin-left: 89px;
+}
+footer .footer-end .end-logo img {
+  width: 123px;
+  height: 25px;
+  float: left;
+  margin-right: 15px;
+  padding-top: 32px;
+}
+footer .footer-end .end {
+  width: 757px;
+  height: 36px;
+  margin-left: 78px;
+}
+footer .footer-end .end p {
+  font-size: 12px;
+  color: #666666;
+  line-height: 36px;
+}
